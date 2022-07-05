@@ -20,6 +20,7 @@ def on_press(key):
         x = True
     if x == True:
         key_list.append(
+            
             {'Held': f'{key}'}
             # f'Key {key} pressed'
         )
